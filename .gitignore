@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 # Python ignorables
 logs/
@@ -61,3 +62,37 @@ core.*
 .core
 *.log
 post_process_status.lock
+=======
+# Ignore environment variable files
+.env
+
+# Bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and system files
+*.log
+*.out
+*.err
+
+# Ignore virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
+
+# Ignore Jupyter notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+logs/
+>>>>>>> Stashed changes
